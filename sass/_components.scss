@@ -1,0 +1,147 @@
+
+//LOGO
+//////
+
+.logo {
+  height: 3.25rem;
+  height: 4.5rem;
+  height: 6.5rem;
+  height: 6rem;
+  //height: 5.5rem;
+  //margin-left: 3rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+
+//MAIN NAVIGATION
+//////
+.main-nav {
+  //background-color: indianred;
+  align-self: stretch;
+
+  display: flex;
+  align-items: center;
+
+
+  &--item {
+    padding: 0 2rem;
+    cursor: pointer;
+    height: 100% ;
+
+    display: flex;
+    align-items: center;
+
+    &:hover {
+      background-color: var(--color-grey-light-2);
+    }
+
+    &-link {
+      text-decoration: none;
+      //to make the whole hoverable background linked
+      align-self: stretch;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &:link,
+      &:visited {
+          color: var(--color-link);
+      }
+
+      &:hover,
+      &:active {
+        color: var(--color-link);
+      }
+    }
+  }
+}
+
+.main-nav--item-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  //display: flex;
+  //position: relative;
+
+  &>* {
+
+  }
+}
+
+.top-span {
+  background: red;
+}
+
+.bottom-span {
+  display: flex;
+}
+
+.nav-span {
+/*  display: none;
+  text-align: center;
+  width: 500px;
+  color: white;
+  padding: 10px;
+  position: absolute;
+  top: -70px;
+  left: -50px;
+  transform: translate(-50%,-50%);
+  transform: translate(50%,50%);
+
+  background: var(--color-violet);
+
+  align-self: stretch;*/
+}
+
+
+//GALLERY
+//////
+
+.gallery {
+  //height: 50rem;
+  height: 500px;
+  //margin-top: 1rem;
+
+  &-item {
+    //height: 45rem;
+    height: 100%;
+    //background-image: url("../pics/seashore.jpg");
+    //background-image: url("../pics/bird-s-eye-view-of-ocean-during-daytime-2707756.jpg");
+    //background-image: url("../pictures/dandelion-445228_1280.jpg");
+    background-image: url("../ministry-images/pexels-expect-best-571190.jpg");
+    //background-size: 100%;
+    background-size: cover;
+    //background-position: center center;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  &-photo {
+    //width: 100%;
+    //width: 50%;
+    //height: 50vh;
+    //height: 50%;
+    //display: block; //take space underneath the image out
+  }
+}
+
+
+//TEXT
+//////
+.text-box {
+  //padding: 2rem 4rem;
+  //max-width: 100rem;
+  //margin: 2rem auto;
+
+  max-width: 1000px;
+
+  background-color: #fff;
+  box-shadow: var(--shadow-dark-violet);
+  //min-height: 50rem;
+  border-radius: 2px;
+  //margin: -10rem auto 0 auto;
+  margin: -120px auto 0 auto;
+  //margin: 1rem auto 0 auto;
+  //height: 100rem;
+}

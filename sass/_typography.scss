@@ -1,0 +1,87 @@
+.heading-one {
+  font-family: 'Merriweather', serif;
+  //font-size: 3.6rem;
+  //font-size: 5.1rem;
+
+  font-size: 44px;
+  font-size: 2.44em;//From Modularscale.com // Base font 18px
+  //font-size: 35px;
+
+  //font-size: 3.05em;
+  font-size: 1.56em;
+  //font-size: 1.25em;
+
+  //margin: 2rem 0;
+  text-transform: uppercase;
+
+  letter-spacing: .1em;
+  //letter-spacing: .2em;
+  //font-weight: 100;
+  color: #a7a7a7;
+  color: #6264a7;
+
+  //margin: 0.99em 0;
+  margin: 0.99em auto;
+
+
+  line-height: 1.99em;
+
+  //text-align: center;
+  max-width: 720px;
+}
+
+.heading-two {
+  //font-size: 2.6rem;
+  font-size: 18px;
+  font-size: 1em;
+
+  font-weight: 400;
+
+  color: #498aa2;
+
+  max-width: 720px;
+  margin: 0 auto;
+
+  line-height: 1.5556em;
+}
+
+.heading-three {
+  font-size: 14.4px;
+  font-size: 0.8em;
+
+  font-weight: 500;
+
+  color: #454545;
+}
+
+.heading-four {
+  font-size: 28px;
+  font-size: 1.56em;
+
+  font-weight: 100;
+  text-transform: uppercase;
+
+  color: #9ea643;
+}
+
+p {
+  line-height: 1.6;
+  //margin-bottom: 1.6em;
+  //max-width: 600px;
+
+  max-width: 720px;
+  margin: 0 auto 1.6em auto;
+}
+
+ul{
+  padding-left: 90px;
+  line-height: 1.6;
+  max-width: 720px;
+  margin: 0 auto 1.6em auto;
+}
+
+.para {
+
+  //margin: 2rem 0;
+
+}

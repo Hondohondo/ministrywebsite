@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400&family=Merriweather:wght@300;400&display=swap');
+
+
+/* ========================= 01 // CSS VARIABLES ======================== */
+:root {
+  --color-link: #551a8b;
+  --color-violet: #6264a7;
+  --color-violet-dark: #33344A;
+
+  --color-grey-light-1: #faf9f9;
+  --color-grey-light-2: #f4f2f2;
+  --color-grey-light-3: #f0eeee;
+  --color-grey-light-4: #ccc;
+
+  --color-grey-dark-1: #333;
+  --color-grey-dark-2: #777;
+  --color-grey-dark-3: #999;
+
+  //--shadow-dark-1: 0 2rem 6rem rgba(0,0,.3);
+  --shadow-dark-1: 0 20px 60px rgba(0,0,.3);
+
+
+
+  --shadow-dark-2: 0 10px 30px rgba(0,0,0,.3);
+
+  --shadow-dark-violet: 0 10px 30px rgba(98,100,167,.3);
+}
+
+/* ========================= 03 // BROWSER RESET ======================== */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+
+/* ======================= END BROWSER RESET ======================= */
+
+body {
+  //font-family: "skolar", Georgia, "Times New Roman", Times, serif;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 18px;
+  //font-size: 21px;
+  font-weight: 300;
+
+  //padding: 2em 1em 2em 2em;
+
+  //padding: .2em 1em .2em 2em;
+  background: var(--color-violet);
+  background-image: linear-gradient(to right bottom,
+          var(--color-violet),
+          var(--color-violet-dark));
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  //color: #1f1f1f;
+  color: #333;
+
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  //font-family:"futura-pt", Verdana, Tahoma, Helvetica, sans-serif;
+  //margin: 20px 0;
+
+}

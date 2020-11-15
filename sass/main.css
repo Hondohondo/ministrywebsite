@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400&family=Merriweather:wght@300;400&display=swap");
+.logo {
+  height: 3.25rem;
+  height: 4.5rem;
+  height: 6.5rem;
+  height: 6rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+.main-nav {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.main-nav--item {
+  padding: 0 2rem;
+  cursor: pointer;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.main-nav--item:hover {
+  background-color: var(--color-grey-light-2);
+}
+.main-nav--item-link {
+  text-decoration: none;
+  align-self: stretch;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-nav--item-link:link, .main-nav--item-link:visited {
+  color: var(--color-link);
+}
+.main-nav--item-link:hover, .main-nav--item-link:active {
+  color: var(--color-link);
+}
+
+.main-nav--item-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.top-span {
+  background: red;
+}
+
+.bottom-span {
+  display: flex;
+}
+
+.nav-span {
+  /*  display: none;
+    text-align: center;
+    width: 500px;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: -70px;
+    left: -50px;
+    transform: translate(-50%,-50%);
+    transform: translate(50%,50%);
+
+    background: var(--color-violet);
+
+    align-self: stretch;*/
+}
+
+.gallery {
+  height: 500px;
+}
+.gallery-item {
+  height: 100%;
+  background-image: url("../ministry-images/pexels-expect-best-571190.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.text-box {
+  max-width: 1000px;
+  background-color: #fff;
+  box-shadow: var(--shadow-dark-violet);
+  border-radius: 2px;
+  margin: -120px auto 0 auto;
+}
+
+.container {
+  margin: 10px auto;
+}
+
+.header {
+  height: 7rem;
+  background-color: #fff;
+  border-bottom: var(--color-grey-light-2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar {
+  background-color: var(--color-grey-dark-1);
+}
+
+.content-view {
+  background-color: #fff;
+}
+
+/* ========================= 01 // CSS VARIABLES ======================== */
+:root {
+  --color-link: #551a8b;
+  --color-violet: #6264a7;
+  --color-violet-dark: #33344A;
+  --color-grey-light-1: #faf9f9;
+  --color-grey-light-2: #f4f2f2;
+  --color-grey-light-3: #f0eeee;
+  --color-grey-light-4: #ccc;
+  --color-grey-dark-1: #333;
+  --color-grey-dark-2: #777;
+  --color-grey-dark-3: #999;
+  --shadow-dark-1: 0 20px 60px rgba(0,0,.3);
+  --shadow-dark-2: 0 10px 30px rgba(0,0,0,.3);
+  --shadow-dark-violet: 0 10px 30px rgba(98,100,167,.3);
+}
+
+/* ========================= 03 // BROWSER RESET ======================== */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+/* ======================= END BROWSER RESET ======================= */
+body {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  background: var(--color-violet);
+  background-image: linear-gradient(to right bottom, var(--color-violet), var(--color-violet-dark));
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #333;
+}
+
+/* Set height of body and the document to 100% to enable "full page tabs" */
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+  font-family: inherit;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  display: none;
+  padding: 70px 20px;
+  height: 100%;
+}
+
+/*
+#Home {background-color: red;}
+#News {background-color: green;}
+#Contact {background-color: blue;}
+#About {background-color: orange;}*/
+.heading-one {
+  font-family: "Merriweather", serif;
+  font-size: 44px;
+  font-size: 2.44em;
+  font-size: 1.56em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #a7a7a7;
+  color: #6264a7;
+  margin: 0.99em auto;
+  line-height: 1.99em;
+  max-width: 720px;
+}
+
+.heading-two {
+  font-size: 18px;
+  font-size: 1em;
+  font-weight: 400;
+  color: #498aa2;
+  max-width: 720px;
+  margin: 0 auto;
+  line-height: 1.5556em;
+}
+
+.heading-three {
+  font-size: 14.4px;
+  font-size: 0.8em;
+  font-weight: 500;
+  color: #454545;
+}
+
+.heading-four {
+  font-size: 28px;
+  font-size: 1.56em;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #9ea643;
+}
+
+p {
+  line-height: 1.6;
+  max-width: 720px;
+  margin: 0 auto 1.6em auto;
+}
+
+ul {
+  padding-left: 90px;
+  line-height: 1.6;
+  max-width: 720px;
+  margin: 0 auto 1.6em auto;
+}
+
+.mb-sm {
+  margin-bottom: 1em !important;
+}
+
+/*# sourceMappingURL=main.css.map */
